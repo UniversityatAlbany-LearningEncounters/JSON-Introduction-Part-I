@@ -1,0 +1,12 @@
+{
+  "Name" : "Kermit",
+  "Address" : {
+    "Street" : {
+      "Number" : "21",
+      "Street" : "Sesame Street"
+      },
+    "City" : "Boston",
+    "State" : "MA",
+    "ZIP" : "12345"
+    }
+}

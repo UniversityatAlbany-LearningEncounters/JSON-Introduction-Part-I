@@ -179,12 +179,90 @@ vim movie.json
 
         <section>
           <p>Note the use of</p>
-          <p>[]</p>
-          <p>square brackets</p>
+          <p>square brackets []</p>
           <p>around the array</p>
         </section>
 
+        <section>
+          <p>Sometimes</p>
+          <p>the question</p>
+          <p>has a composite answers</p>
+        </section>
 
+        <section>
+          <p>Let's consider</p>
+          <p>an address</p>
+        </section>
+
+        <section>
+          <p>Type in a new file the following</p>
+          <pre><code data-trim contenteditable>
+{
+  "Name" : "Kermit",
+  "Address"  : "21 Sesame Street, Boston MA, 12345"
+}
+          </code></pre>
+          <p>Save the file and quit the editor</p>
+        </section>
+
+        <section>
+          <p>Edit the file and rewrite it as</p>
+          <pre><code data-trim contenteditable>
+{
+  "Name" : "Kermit",
+  "Address" : {
+    "Street number" : "21",
+    "Street name"   : "Sesame Street",
+    "City" : "Boston",
+    "State" : "MA",
+    "ZIP" : "12345"
+    }
+}
+          </code></pre>
+          <p>Save the file and quit the editor</p>
+        </section>
+
+        <section>
+          <p>Even the street</p>
+          <p>question</p>
+          <p>can be decomposed</p>
+        </section>
+
+        <section>
+          <p>Edit the file and rewrite it as</p>
+          <pre><code data-trim contenteditable>
+{
+  "Name" : "Kermit",
+  "Address" : {
+    "Street" : {
+      "Number" : "21",
+      "Street" : "Sesame Street"
+      },
+    "City" : "Boston",
+    "State" : "MA",
+    "ZIP" : "12345"
+    }
+}
+          </code></pre>
+        </section>
+
+        <section>
+          <p>Answers</p>
+          <p>can be nested</p>
+          <p>to any level</p>
+        </section>
+
+        <section>
+          <p>Using blocks with</p>
+          <p>curly brackets {}</p>
+          <p>for composite answers</p>
+        </section>
+
+        <section>
+          <p>Using blocks with</p>
+          <p>square brackets []</p>
+          <p>for array answers</p>
+        </section>
 
 
       </div>
